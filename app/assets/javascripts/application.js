@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+angular.module('PharmAssist', [])
+.controller('MainCtrl', [
+'$scope',
+function($scope){
+  $scope.test = 'Hello world!';
+}]);
