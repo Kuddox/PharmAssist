@@ -18,14 +18,13 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-body {
-	background: url('PharmAssist Logo.png') bottom left no-repeat fixed;
-}
-
-.container-fluid {
+.logo {
 	text-align: center;
 }
 
+.container {
+	text-align: center;
+}
 .img-circle {
 	height: 175px;
 }
