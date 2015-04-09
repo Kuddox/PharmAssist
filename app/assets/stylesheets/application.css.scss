@@ -18,14 +18,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.pull-left {
-
-}
-
-.jumbotron {
-	background-image: url('PharmAssist Logo.png');
-	background-position: center center;
-	text-align: center;
+body {
+	background: url('PharmAssist Logo.png') bottom left no-repeat fixed;
 }
 
 .container-fluid {
